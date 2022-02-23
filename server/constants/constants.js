@@ -18,11 +18,11 @@ export const FINNHUB_API_KEY = process.env.NODE_ENV === 'production' ? FINNHUB_A
 export const SYMBOL_PRICE_CHANGE_EVENT = 'symbol_price_change';
 
 export const DEV_MAIL_CREDENTIALS = {
-    login: 'financeplatinumltd@gmail.com',
+    login: 'tradeooooptimaltd@gmail.com',
     password: 'amitpO2202'
 };
 export const PROD_MAIL_CREDENTIALS = {
-    login: 'financeplatinumltd@gmail.com',
+    login: 'tradeooooptimaltd@gmail.com',
     password: 'amitpO2202'
 };
 export const MAIL_CREDENTIALS = process.env.NODE_ENV === 'production' ? PROD_MAIL_CREDENTIALS : DEV_MAIL_CREDENTIALS;
